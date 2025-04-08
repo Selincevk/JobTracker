@@ -1,13 +1,37 @@
-# React + Vite
+<h1>🧾 Job Tracker</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Job Tracker App, kullanıcıların iş başvurularını ekleyip, takip edebildiği bir React + Redux Toolkit tabanlı uygulamadır. Uygulama içerisinde filtreleme, sıralama, arama, başvuru durumu seçimi gibi özellikler bulunmaktadır. Geliştirme ortamında JSON Server ile sahte API kullanılmıştır.
 
-Currently, two official plugins are available:
+<h1>🚀 Özellikler</h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Yeni iş başvurusu ekleme
+- Kelimeye göre iş arama (debounce ile optimize)
+-  Başvuru durumuna göre filtreleme (Mülakat, Reddedildi, Beklemede)
+-  İş türüne göre filtreleme (Full-time, Part-time, Remote)
+-  Tarihe veya alfabetik sıraya göre sıralama
+-  Başvuruları düzenleme ve silme (opsiyonel)
+-  API'den veri çekme (axios ile)
+-  Yükleniyor ve hata durumlarının kullanıcıya gösterilmesi
+-  URL parametreleri ile filtre ve arama senkronizasyonu
+-  State yönetimi için Redux Toolkit kullanımı
+-  Kullanıcıya geri bildirim için react-toastify kullanımı
 
-## Expanding the ESLint configuration
+<h1>🛠️ Kullanılan Teknolojiler</h1>
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# JobTracker
+- React
+- Redux Toolkit
+- React Router
+- TailwindCSS
+- Axios
+- JSON Server (Mock API)
+- React Toastify
+
+<h1>📝 Bilgilendirme</h1>
+
+** API hataları Error bileşeni ile yakalanıyor.
+
+** Veriler jobs endpoint'inden axios ile çekiliyor.
+
+** Kullanıcı etkileşimleri için Toastify ile bildirimler gösteriliyor.
+
+** Arama kutusunda debounce tekniği kullanılarak performans artırılıyor.
