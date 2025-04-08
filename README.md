@@ -35,3 +35,7 @@ Job Tracker App, kullanıcıların iş başvurularını ekleyip, takip edebildi�
 ** Kullanıcı etkileşimleri için Toastify ile bildirimler gösteriliyor.
 
 ** Arama kutusunda debounce tekniği kullanılarak performans artırılıyor.
+
+<h1>DEMO</h1>
+
+![](./demo.gif)

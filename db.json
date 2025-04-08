@@ -129,20 +129,11 @@
     {
       "position": "Mobile Developer",
       "company": "Emaartech",
-      "location": "ankara",
+      "location": "İzmir",
       "status": "Devam Ediyor",
-      "type": "Yarı Zamanlı",
-      "date": 1744051394586,
-      "id": "nd7htvw"
-    },
-    {
-      "position": "Mobile Developer",
-      "company": "Emaartech",
-      "location": "ankara",
-      "status": "Mülakat",
-      "type": "Uzaktan",
-      "date": 1744104964444,
-      "id": "rOMAVc9"
+      "type": "Tam Zamanlı",
+      "date": 1744144617016,
+      "id": "-NLXRkY"
     }
   ]
 }
